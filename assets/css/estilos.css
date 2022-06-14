@@ -55,6 +55,12 @@ body {
 
 }
 
+.menu-lateral__link--ativo{
+    color: #FFFFFF;
+    padding-left: 50px;
+    border-left: 8px solid #FFFFFF;
+}
+
 .menu-lateral__link::before {
     content: '';
     width: 24px;
@@ -65,26 +71,26 @@ body {
 }
 
 
-.menu-lateral__link--inicio {
-    content: '';
+.menu-lateral__link--inicio::before {
+    content: '\e902';
 }
 
-.menu-lateral__link--videos {
-    content: '';
+.menu-lateral__link--videos::before {
+    content: '\e90e';
 }
 
-.menu-lateral__link--picos {
-    content: '';
+.menu-lateral__link--picos::before {
+    content: '\e909';
 }
 
-.menu-lateral__link--integrantes {
-    content: '';
+.menu-lateral__link--integrantes::before {
+    content: '\e903';
 }
 
-.menu-lateral__link--camisas {
-    content: '';
+.menu-lateral__link--camisas::before {
+    content: '\e900';
 }
 
-.menu-lateral__link--pinturas {
-    content: '';
+.menu-lateral__link--pinturas::before {
+    content: '\e90a';
 }
